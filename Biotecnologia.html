@@ -4,23 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Sankrope</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>    <title>Site Sankrope</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body> <link rel="stylesheet" href="style.css">
+<body>
 
-<header class="cabeçalho">
-    <h1>Biotecnologia</h1>
+<!-- Navigation bar starts here     -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:#32619b !important;">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#projeto">Projeto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#equipe">Equipe</a>
+          </li>
 
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Cursos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="programaçao.html">Programação</a></li>
+            <li><a class="dropdown-item" href="Robotica.html">Robotica</a></li>
+            <li><a class="dropdown-item" href="Empreendedorismo.html">Empreendedorismo</a></li>
+            <li><a class="dropdown-item" href="Biotecnologia.html">Biotecnologia</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex navbar-search-field" role="search">
+        <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Navigation bar starts here     -->
 
-    <ul class="lista">
-        <li class="cabecalho-lista-item">
-            <a href="Programaçao.html">Programação</li>
-            <a href="Robotica.html">Robotica</a>
-            <a href="Empreendedorismo.html">Empreendedorismo</a>
-        <div class="lista-item"><a href= "#equipe"> Equipe</div>
-    </ul>   
+<!-- Hero section here -->
+<header class="cabeçalhobiotecnologia">
+    <div>
+        <h1 class="header-titulo">Biotecnologia</h1>
+    </div>
 </header>
+<!-- Hero section end -->
 
+<!-- Projeto starts here -->
 <section class="projeto">
     <div class="projeto-div">
         <h2 class="projeto-titulo">Sobre o Projeto</h2>
@@ -29,65 +66,126 @@
         <br>aos alunos do ensino fundamental.</p>
     </div>
 </section>
+<!-- Projeto ends here -->
 
+<!-- estudante starts here -->
 <section class="estudante">
-    <h2 class="estudante-titulo">Sobre os estudantes</h2>
+    <h2 class="estudante-titulo">Sobre os Estudantes</h2>
+    <div class="container">
 
-    <div class="estudante-div">
-        <img class="estudante-imagem" src="./felipao_2.jpg" alt="felipe">
-        <h3 class="estudante-nome">Felipe</h3>
-
-        <p class="estudante-texto">Eu sou Felipe Kauan estudante do <br>
-            Colégio Estadual do Paraná,<br>
-        meu gato é a coisa mais preciosa pra mim<br>
-         sou casado<br>
-        e optei por escolher os estudos de exatas.<br>     
-        </p>      
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top estudante-imagem" src="./img/felipao_2.jpg" alt="felipe">
+                    <div class="card-body">
+                        <h3 class="card-title estudante-nome">Felipe</h3>
+                        <p class="card-text estudante-texto">Eu sou Felipe Kauan estudante do <br>
+                            Colégio Estadual do Paraná,<br>
+                            meu gato é a coisa mais preciosa pra mim<br>
+                            sou casado<br>
+                            e optei por escolher os estudos de exatas.<br>     
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top estudante-imagem" src="./img/EROS.jpg" alt="Eros">
+                    <div class="card-body">
+                        <h3 class="card-title estudante-nome">Eros</h3>
+                        <p class="card-text estudante-texto">Eu sou Eros Borghi Skora,<br>
+                            sou fã de oxigênio, curto luta, <br>
+                            estou no colégio desde o primeiro,<br>
+                            curto biológas e biológia, 
+                            estou solteiro.<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="estudante-imagem" src="./img/EDUGAMES.jpg" alt="Eduardo Sandri">
+                    <div class="card-body">
+                        <h3 class="estudante-nome">Eduardo Sandri</h3>
+        
+                        <p class="card-text estudante-texto">Me chamo Eduardo Sandri, <br>
+                        tenho 16 anos, e<br>
+                        estudo no Colégio Estadual do Paraná. <br>
+                        Gosto de música e de jogos, e optei <br>
+                        pelos estudos de exatas.<br><br>
+                        </p>   
+                    </div>
+     
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="estudante-imagem" src="./img/eduzao.jpg" alt="Eduardo Henrique">
+                    <div class="card-body">
+                        <h3 class="estudante-nome">Eduardo Henrique</h3>   
+                        <p class="card-text estudante-texto">Meu nome é Eduardo Henrique,<br>
+                        tenho 16 anos e estudo no Colégio<br> 
+                        Estadual do Paraná. <br>
+                        Entrei no colégio no primeiro ano <br>
+                        e quero seguir nas areas de calculo.<br>
+                        </p>    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="estudante-imagem" src="./img/Miguel Pilar.png" alt="Miguel Pilar">
+                    <div class="card-body">
+                        <h3 class="estudante-nome">Miguel Pilar</h3>       
+                        <p class="card-text estudante-texto">Meu nome é Miguel,<br>
+                        tenho 16 anos e estudo no Colégio<br> 
+                        Estadual do Paraná. <br>
+                        Entrei no colégio no primeiro ano <br>
+                        e quero seguir a area de esportes.<br>  
+                        </p>    
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="estudante-div">
-        <img class="estudante-imagem" src="./EROS.jpg" alt="Eros">
-        <h3 class="estudante-nome">Eros</h3>
-
-        <p class="estudante-texto">Eu sou Eros Borghi Skora,<br>
-        sou fã de oxigênio, curto luta, <br>
-        estou no colégio desde o primeiro,<br>
-        curto biológas e biológia, <br> 
-        estou solteiro.<br> 
-        </p>    
-    </div>
-
-    <div class="estudante-div">
-        <img class="estudante-imagem" src="./EDUGAMES.jpg" alt="Eduardo Sandri">
-        <h3 class="estudante-nome">Eduardo Sandri</h3>
-
-        <p class="estudante-texto">Me chamo Eduardo Sandri, <br>
-            tenho 16 anos, e<br>
-        estudo no Colégio Estadual do Paraná. <br>
-        Gosto de música e de jogos, e optei <br>
-        pelos estudos de exatas.<br>    
-        </p>    
-    </div>
-
-    <div class="estudante-div">
-        <img class="estudante-imagem" src="./eduzao.jpg" alt="Eduardo Henrique">
-        <h3 class="estudante-nome">Eduardo Henrique</h3>
-
-        <p class="estudante-texto">Meu nome é Eduardo Henrique,<br>
-        tenho 16 anos e estudo no Colégio<br> 
-        Estadual do Paraná. <br>
-        Entrei no colégio no primeiro ano <br>
-         e quero seguir nas areas de calculo.<br>  
-        </p>    
-    </div>
-</div>
-
 </section>
+<!-- estudante ends here -->
 
-<footer class="rodape">
-    <img class="rodape-imagem" src="logonova.png" alt="logo do Colégio">
-
-</footer>
-
+<!-- contato starts here -->
+<section class="contato">
+    <h2 class="contato-titulo">Contato</h2>
+    <div class="container">
+        <form class="formulario" method="post" action="https://formspree.io/f/mrgwebjy">
+            
+                <p class="contato__texto"> Em caso de dúvidas, envie uma mensagem preenchendo o formulário abaixo.</p>
+                <div class="lado">
+                    <div class="lado_1">
+                        <div class="field">
+                            <label for="nome" class="contato__texto">Seu nome:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required="" class="form-control">
+                        </div>
+            
+                        <div class="field">
+                            <label for="email" class="contato__texto">Seu E-Mail:</label>
+                            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required="" class="form-control">
+                        </div>
+                    </div>
+                    <div class="field lado_2">
+                        <label for="mensagem" class="contato__texto">Sua mensagem:</label>
+                        <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required="" class="form-control mensagem"></textarea>
+                    </div>
+                </div>
+                <input type="submit" name="acao" value="Enviar" class="btn-primary btn">
+        </form>
+    </div>
+</section>
+    <!-- contato starts here -->
+    <footer class="roda-pé">
+        <p class="footer-text">State College of Paraná - 2ºK ®2023</p>
+    </footer>
+        
 </body>
 </html>

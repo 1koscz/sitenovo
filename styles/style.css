@@ -8,6 +8,34 @@
     align-items: center;
     padding: 24px 0;
 }
+
+.cabeçalhobiotecnologia {
+    background-color: #32619b; 
+    color:rgb(250, 250, 250);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabeçalhoempreendedorismo {
+    background-color: #32619b; 
+    color:rgb(250, 250, 250);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabeçalhoprog {
+    background-color: #32619b; 
+    color:rgb(250, 250, 250);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
 .navbar-search-field{
     width: 34%;
 }

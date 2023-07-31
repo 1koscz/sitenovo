@@ -1,8 +1,8 @@
 * {margin: 0; padding: 0;}
 
 .cabeçalho {
-    background-color: #32619b; 
-    color:rgb(250, 250, 250);
+    background-color: #ffffff; 
+    color:rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -10,8 +10,8 @@
 }
 
 .cabeçalhobiotecnologia {
-    background-color: #32619b; 
-    color:rgb(250, 250, 250);
+    background-color: #ffffff; 
+    color:rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,8 +19,8 @@
 }
 
 .cabeçalhoempreendedorismo {
-    background-color: #32619b; 
-    color:rgb(250, 250, 250);
+    background-color: #ffffff; 
+    color:rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -28,8 +28,17 @@
 }
 
 .cabeçalhoprog {
-    background-color: #32619b; 
-    color:rgb(250, 250, 250);
+    background-color: #ffffff; 
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabeçalhorobótica {
+    background-color: #ffffff; 
+    color:rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;

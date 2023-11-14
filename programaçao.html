@@ -104,6 +104,38 @@
 <audio src="SONS PROG/keyc.wav" id=" som_tecla_tom"></audio>
 
 
+<head>
+  <meta  charset =" utf-8 " >
+  <title > Calculadora </title >		
+  <script  src =" calculadora.js " > </script>
+  </head>
+
+<body  bgcolor =" bege " >
+  <h1 > Calculadora 1.0 </h1 >
+  <tipo de entrada  =" texto " id =" txtValor1 " >
+    <select  id =" operadores " onchange =" ControleDeSelecao(); " >
+      <optgroup  label =" Básico " >
+        <opção  valor =" + " > 	+(somar) </opção >
+        <option  value =" - " > 	-(subtrair) </option >
+        <option  value =" * " > 	*(multiplicar) </option >
+        <option  value =" / " > 	/(dividir) </option >
+      </optgroup >
+      <optgroup  label =" Outros " >
+        <opção  valor =" raiz " > 	 	  Raiz	 </opção >
+        <option  value =" potência " > 	Potência </option >
+        <option  value =" fatorial " > 	Fatorial </option >
+        <option  value =" fibonacci " > Fibonaci </option >					
+        <option  value =" porcento " > 	Porcentagem </option >
+        <option  value =" media " > 		Média </option >
+        <option  value =" calc " > 		  Desenvolver Calc </option >
+      </optgroup >
+    </selecione >
+  <tipo de entrada  =" texto " id =" txtValor2 " tamanho =" 5 " > <br >		
+  <input  type =" botão " onclick =" Calcular('txtValor1', 'txtValor2') " valor =" Calcular " >
+  <input  type =" botão " onclick =" Limpar('txtValor1', 'txtValor2') " valor =" Limpar " >
+  <p  id =" disse " > Resultado: </p >
+  <horas >		
+  </body>
 
 <section class="contato">
     <h2 class="contato-titulo">Contato</h2>
@@ -137,39 +169,6 @@
         <p class="footer-text">Colégio Estadual do Paraná - 2ºK ®2023</p>
     </footer>
   </body>
-
-  <head>
-  <meta  charset =" utf-8 " >
-  <title > Calculadora </title >		
-  <script  src =" calculadora.js " > </script>
-  </head>
-
-<body  bgcolor =" bege " >
-  <h1 > Calculadora 1.0 </h1 >
-  <tipo de entrada  =" texto " id =" txtValor1 " >
-    <select  id =" operadores " onchange =" ControleDeSelecao(); " >
-      <optgroup  label =" Básico " >
-        <opção  valor =" + " > 	+(somar) </opção >
-        <option  value =" - " > 	-(subtrair) </option >
-        <option  value =" * " > 	*(multiplicar) </option >
-        <option  value =" / " > 	/(dividir) </option >
-      </optgroup >
-      <optgroup  label =" Outros " >
-        <opção  valor =" raiz " > 	 	  Raiz	 </opção >
-        <option  value =" potência " > 	Potência </option >
-        <option  value =" fatorial " > 	Fatorial </option >
-        <option  value =" fibonacci " > Fibonaci </option >					
-        <option  value =" porcento " > 	Porcentagem </option >
-        <option  value =" media " > 		Média </option >
-        <option  value =" calc " > 		  Desenvolver Calc </option >
-      </optgroup >
-    </selecione >
-  <tipo de entrada  =" texto " id =" txtValor2 " tamanho =" 5 " > <br >		
-  <input  type =" botão " onclick =" Calcular('txtValor1', 'txtValor2') " valor =" Calcular " >
-  <input  type =" botão " onclick =" Limpar('txtValor1', 'txtValor2') " valor =" Limpar " >
-  <p  id =" disse " > Resultado: </p >
-  <horas >		
-</corpo >
 
 </html>
 

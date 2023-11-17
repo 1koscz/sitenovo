@@ -13,8 +13,6 @@
   }
   
   .calculator {
-    display: flex;
-    align-items: center;
     width: 300px;
     background-color: #464646;
     border-radius: 10px;

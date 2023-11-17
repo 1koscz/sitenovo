@@ -1,4 +1,4 @@
-*{margin: 0; padding: 0;}
+* {margin: 0; padding: 0;}
 
 .teclado{background-color: #0056b3; display:grid;gap:10px;grid-template-columns: repeat(3,1fr);padding:10px;}
 .tecla{background-color: #0056b3; color:#ffffff; padding:30px;}

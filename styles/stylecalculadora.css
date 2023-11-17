@@ -13,7 +13,7 @@
   }
   
   .calculator {
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 300px;
     background-color: #464646;

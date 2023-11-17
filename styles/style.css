@@ -144,6 +144,11 @@
 .header-titulo{
     margin: 4vh;
 }
+
+.header-titulo-calculadora{
+    margin: 4vh;
+}
+
 .card {
     max-width: 400px;
     margin: 2vh auto;

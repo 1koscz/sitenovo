@@ -77,3 +77,12 @@
    margin-top: 10px;
    margin-left: 5rem;
  }
+
+ .calculadora-header {
+  background-color: #ffffff; 
+  color:rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px 0;
+}

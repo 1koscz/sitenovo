@@ -256,12 +256,5 @@
     padding: 24px 0;
 }
 
-.calculadora {
-    background-color: #ffffff; 
-    color:rgb(0, 0, 0);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
-}
+
 

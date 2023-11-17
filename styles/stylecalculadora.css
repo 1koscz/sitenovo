@@ -69,3 +69,11 @@
   .bg-orange {
     background-color: #66CDAA;
   }
+
+  .calculadora {
+    align-items: center;
+    font-size: 30px;
+   color: rgb(21, 138, 99);
+   margin-top: 10px;
+   margin-left: 5rem;
+ }
